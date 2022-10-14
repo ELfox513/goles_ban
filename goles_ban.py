@@ -1,5 +1,5 @@
 import discord
-import os
+from config import token
 import logging
 import logging.handlers
 import json
@@ -129,4 +129,4 @@ intents.members = True
 intents.reactions = True
 
 client = MyClient(intents=intents)
-client.run(os.getenv('GOLES_BAN_TOKEN'), log_handler=None)
+client.run(token, log_handler=None)

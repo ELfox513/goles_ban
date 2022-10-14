@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 goles_ban.json
+config.py
