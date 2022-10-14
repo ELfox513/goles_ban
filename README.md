@@ -16,5 +16,5 @@ Arrangement of reactions for all messages of people can be regarded as spam and 
 * user_id - The user’s unique ID
 * emoji_name - Emoji name, right?
 
-`?goles megapardon user_id emoji_name` - Remove all automatic reactions to the user's messages
+`?goles megapardon user_id` - Remove all automatic reactions to the user's messages
 * user_id - The user’s unique ID
