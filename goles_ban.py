@@ -129,4 +129,4 @@ intents.members = True
 intents.reactions = True
 
 client = MyClient(intents=intents)
-client.run(os.getenv('TOKEN'), log_handler=None)
+client.run(os.getenv('GOLES_BAN_TOKEN'), log_handler=None)
